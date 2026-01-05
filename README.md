@@ -37,8 +37,6 @@ LLM (GPT-4o-mini / Gemini)
 ↓
 Grounded Answer
 
-yaml
-نسخ الكود
 
 ---
 
@@ -88,24 +86,19 @@ Google Colab
 1️⃣ Build the Dataset
 Run:
 
-نسخ الكود
 01_autism_pdf_ingestion.ipynb
 2️⃣ Build the Vector Store
 Run:
 
-نسخ الكود
 02_autism_vectorstore_build.ipynb
 This step is done once only.
 
 3️⃣ Ask Questions
 Run:
 
-نسخ الكود
 03_autism_rag_inference.ipynb
 Or execute:
 
-bash
-نسخ الكود
 python autism_rag_inference.py
 🧠 Example Query
 User:
